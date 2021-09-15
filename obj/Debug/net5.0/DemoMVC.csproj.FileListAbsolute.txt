@@ -39,3 +39,5 @@ C:\Users\Admin\OneDrive\Tài liệu\NetCore\DemoMVC\obj\Debug\net5.0\DemoMVC.p
 C:\Users\Admin\OneDrive\Tài liệu\NetCore\DemoMVC\obj\Debug\net5.0\DemoMVC.genruntimeconfig.cache
 C:\Users\Admin\OneDrive\Tài liệu\NetCore\DemoMVC\obj\Debug\net5.0\DemoMVC.csproj.CopyComplete
 C:\Users\Admin\OneDrive\Tài liệu\NetCore\DemoMVC\obj\Debug\net5.0\Razor\Views\Shared\_LayoutNew.cshtml.g.cs
+C:\Users\Admin\OneDrive\Tài liệu\NetCore\DemoMVC\obj\Debug\net5.0\Razor\Views\HelloWord\GetName.cshtml.g.cs
+C:\Users\Admin\OneDrive\Tài liệu\NetCore\DemoMVC\obj\Debug\net5.0\Razor\Views\HelloWord\Index.cshtml.g.cs
