@@ -10,7 +10,7 @@ namespace DEMOMVC.Controllers
             return View();
         }
 
-        public IActionResult Welcome(string name, int numTimes = 1)
+        public IActionResult GetName(string name, int numTimes = 1)
         {
             ViewData["Message"] = "Hello " + name;
             ViewData["NumTimes"] = numTimes;
