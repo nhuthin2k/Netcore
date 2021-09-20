@@ -173,3 +173,8 @@ C:\Users\Admin\OneDrive\Tài liệu\NetCore\DemoMVC\obj\Debug\net5.0\Razor\Vie
 C:\Users\Admin\OneDrive\Tài liệu\NetCore\DemoMVC\obj\Debug\net5.0\Razor\Views\Movies\Details.cshtml.g.cs
 C:\Users\Admin\OneDrive\Tài liệu\NetCore\DemoMVC\obj\Debug\net5.0\Razor\Views\Movies\Edit.cshtml.g.cs
 C:\Users\Admin\OneDrive\Tài liệu\NetCore\DemoMVC\obj\Debug\net5.0\Razor\Views\Movies\Index.cshtml.g.cs
+C:\Users\Admin\OneDrive\Tài liệu\NetCore\DemoMVC\obj\Debug\net5.0\Razor\Views\Students\Create.cshtml.g.cs
+C:\Users\Admin\OneDrive\Tài liệu\NetCore\DemoMVC\obj\Debug\net5.0\Razor\Views\Students\Delete.cshtml.g.cs
+C:\Users\Admin\OneDrive\Tài liệu\NetCore\DemoMVC\obj\Debug\net5.0\Razor\Views\Students\Details.cshtml.g.cs
+C:\Users\Admin\OneDrive\Tài liệu\NetCore\DemoMVC\obj\Debug\net5.0\Razor\Views\Students\Edit.cshtml.g.cs
+C:\Users\Admin\OneDrive\Tài liệu\NetCore\DemoMVC\obj\Debug\net5.0\Razor\Views\Students\Index.cshtml.g.cs
