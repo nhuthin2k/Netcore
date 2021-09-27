@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace DEMOMVC.Models
+namespace DemoMVC.Models
 {
     public class Student
     {

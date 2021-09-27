@@ -9,14 +9,16 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
+using DemoMVC.Data;
 
 namespace DemoMVC
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration , IWebHostEnvironment env)
+        public Startup(IConfiguration configuration, IApplicationBuilder app, IWebHostEnvironment env)
         {
-             Environment = env;
+            app.UseDeveloperExceptionPage();
+            Environment = env;
             Configuration = configuration;
         }
 

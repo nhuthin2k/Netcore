@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using DemoMVC.Data;
 
 namespace DemoMVC.Migrations
 {
@@ -17,7 +18,7 @@ namespace DemoMVC.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "5.0.10");
 
-            modelBuilder.Entity("DEMOMVC.Models.Movie", b =>
+            modelBuilder.Entity("DemoMVC.Models.Movie", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -40,7 +41,7 @@ namespace DemoMVC.Migrations
                     b.ToTable("Movie");
                 });
 
-            modelBuilder.Entity("DEMOMVC.Models.Student", b =>
+            modelBuilder.Entity("DemoMVC.Models.Student", b =>
                 {
                     b.Property<int>("StudentId")
                         .ValueGeneratedOnAdd()

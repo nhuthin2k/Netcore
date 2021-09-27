@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using DEMOMVC.Models;
+using DemoMVC.Models;
+using DemoMVC.Data;
 
 namespace DemoMVC.Controllers
 {

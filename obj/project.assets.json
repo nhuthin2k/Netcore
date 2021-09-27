@@ -7439,11 +7439,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\NetCore\\DemoMVC\\DemoMVC.csproj",
+      "projectUniqueName": "D:\\NetCore\\DemoMVC\\DemoMVC.csproj",
       "projectName": "DemoMVC",
-      "projectPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\NetCore\\DemoMVC\\DemoMVC.csproj",
+      "projectPath": "D:\\NetCore\\DemoMVC\\DemoMVC.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\NetCore\\DemoMVC\\obj\\",
+      "outputPath": "D:\\NetCore\\DemoMVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
