@@ -1,3 +1,4 @@
+using System.Reflection.Metadata.Ecma335;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,6 +24,7 @@ namespace DemoMVC.Controllers
         public async Task<IActionResult> Index(string searchString)
    {
     //linq
+    //select*from movie
     var movies = from m in _context.Movie
                  select m;
 
@@ -65,13 +67,23 @@ namespace DemoMVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Price")] Movie movie)
         {
-            if (ModelState.IsValid)
+           try{
+           
+                 if (ModelState.IsValid)
             {
                 _context.Add(movie);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
+            }}
+           
+           catch
+           {
+               ModelState.AddModelError("","Nguy rồi đại vương ơi. Chúng ta đã  bị mất kết nối");
+               return RedirectToAction(nameof(Index));
+           
+           }
             return View(movie);
+
         }
 
         // GET: Movies/Edit/5
